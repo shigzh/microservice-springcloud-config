@@ -76,7 +76,7 @@ pagehelper:
   params: count=countSql;
   
 spring:
-  profiles: dev # 开发环境
+  profiles: prod # 正式环境
   application:
     name: microservice-product-config # ******服务名*******
     #数据源配置
